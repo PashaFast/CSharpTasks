@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TransformerToWords</name>
+    </assembly>
+    <members>
+        <member name="T:TransformerToWords.Transformer">
+            <summary>
+            Class Transformer.
+            </summary>
+        </member>
+        <member name="M:TransformerToWords.Transformer.TransformToWords(System.Double)">
+            <summary>
+            Converts any double number (System.Double) to its "word format".
+            </summary>
+            <param name="number">Input double number.</param>
+            <returns> "Word format" of input number.</returns>
+        </member>
+    </members>
+</doc>

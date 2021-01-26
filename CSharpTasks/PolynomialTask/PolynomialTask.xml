@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PolynomialTask</name>
+    </assembly>
+    <members>
+        <member name="T:PolynomialTask.Polynomial">
+            <summary>
+            Sealed class Polinomial.
+            Implemets interfaces IEquatable, ICloneable.
+            </summary>
+        </member>
+        <member name="M:PolynomialTask.Polynomial.#ctor(System.Double[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:PolynomialTask.Polynomial"/> class.
+            </summary>
+            <param name="coefficients">Array of coefficients.</param>
+        </member>
+        <member name="P:PolynomialTask.Polynomial.Epsilon">
+            <summary>
+            Gets or sets aaccuracy of calculations.
+            </summary>
+            <value>
+            Epsilon = 0.0001.
+            </value>
+        </member>
+        <member name="M:PolynomialTask.Polynomial.Add(PolynomialTask.Polynomial,PolynomialTask.Polynomial)">
+            <summary>
+            Add method.
+            </summary>
+            <param name="lhs">First polynomial.</param>
+            <param name="rhs">Second polynomial.</param>
+            <returns>Sum of two polynomials.</returns>
+        </member>
+        <member name="M:PolynomialTask.Polynomial.Subtract(PolynomialTask.Polynomial,PolynomialTask.Polynomial)">
+            <summary>
+            Subtract method.
+            </summary>
+            <param name="lhs">First polynomial.</param>
+            <param name="rhs">Second polynomial.</param>
+            <returns>subtraction of two polynomials.</returns>
+        </member>
+        <member name="M:PolynomialTask.Polynomial.Multiply(PolynomialTask.Polynomial,PolynomialTask.Polynomial)">
+            <summary>
+            Multiply method.
+            </summary>
+            <param name="lhs">First polynomial.</param>
+            <param name="rhs">Second polynomial.</param>
+            <returns>Multiplication if two polynomials.</returns>
+        </member>
+        <member name="M:PolynomialTask.Polynomial.ToString">
+            <summary>
+            ToString override method.
+            </summary>
+            <returns>String representation of an object.</returns>
+        </member>
+        <member name="M:PolynomialTask.Polynomial.GetHashCode">
+            <summary>
+            GetHashCode override method.
+            </summary>
+            <returns>int value.</returns>
+        </member>
+        <member name="M:PolynomialTask.Polynomial.Equals(System.Object)">
+            <summary>
+            Equals override method.
+            </summary>
+            <param name="obj">Object.</param>
+            <returns>True(if two objects are equal) or false(otherwise).</returns>
+        </member>
+        <member name="M:PolynomialTask.Polynomial.Equals(PolynomialTask.Polynomial)">
+            <summary>
+            Equals method.
+            </summary>
+            <param name="polynomial">Polynomial.</param>
+            <returns>True(if two objects are equal) or false(otherwise).</returns>
+        </member>
+        <member name="M:PolynomialTask.Polynomial.Clone">
+            <summary>
+            Clone method.
+            </summary>
+            <returns>Creates a shalow copy of Polynomial.</returns>
+        </member>
+    </members>
+</doc>
